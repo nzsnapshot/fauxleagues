@@ -17,12 +17,33 @@ function App() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors">
       <div className="max-w-4xl mx-auto py-8 px-4">
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8 transition-colors">
-          <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center space-x-3">
-              <Scroll className="w-8 h-8 text-blue-500" />
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-                RuneScape Leagues Tasks
-              </h1>
+          <div className="flex items-start justify-between mb-6">
+            <div className="flex flex-col">
+              <div className="flex items-center space-x-3">
+                <img 
+                  src="/logo.png" 
+                  alt="Raging Echoes Logo" 
+                  className="w-12 h-12 object-contain"
+                />
+                <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+                  RuneScape Leagues Tasks
+                </h1>
+              </div>
+              <div className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <span>Credit to </span>
+                <a 
+                  href="https://www.twitch.tv/faux" 
+                  className="text-blue-500 hover:text-blue-600 transition-colors"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Faux
+                </a>
+                <span> for the original Pastebin guide</span>
+              </div>
+              <div className="mt-1 text-sm font-medium text-gray-700 dark:text-gray-300">
+                RuneScape Leagues 5 - Raging Echoes
+              </div>
             </div>
             <div className="flex items-center space-x-4">
               <button
